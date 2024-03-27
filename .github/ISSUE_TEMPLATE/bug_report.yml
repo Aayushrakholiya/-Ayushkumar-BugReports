@@ -51,16 +51,14 @@ body:
       label: Open Interpreter version
       description: Run `pip show open-interpreter`
       placeholder: e.g. 0.1.1
-    validations:
-      required: true
+    
   - type: input
     id: pythonversion
     attributes:
-      label: Python version
+      label: Language version
       description: Run `python -V`
       placeholder: e.g. 3.11.5
-    validations:
-      required: true
+    
   - type: input
     id: osversion
     attributes:

@@ -7,8 +7,13 @@ body:
     attributes:
       value: |
         Your issue may have already been reported. Please check the following link for common issues and solutions.
-
-       
+        - type: textarea
+    id: Software
+    attributes:
+      label: Software
+      description: Where the bug was found.
+    validations:
+      required: true
   - type: textarea
     id: description
     attributes:
